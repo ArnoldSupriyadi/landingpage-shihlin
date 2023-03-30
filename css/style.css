@@ -1,0 +1,95 @@
+body {
+  padding: 1px;
+  font-family: "Figtree", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-hero {
+  color: #ffffff;
+}
+
+.title-hero h1 {
+  font-size: 4.6rem;
+  letter-spacing: 1px;
+}
+
+.title-hero small {
+  font-weight: 500;
+}
+
+.title-hero b {
+  font-weight: 800;
+}
+
+.logo-shihlin {
+  width: 40%;
+}
+
+.logo-sevenwonder {
+  width: 22%;
+}
+
+.kartu {
+  scale: 1;
+}
+
+.row.row-snk {
+  margin-top: -14rem;
+}
+.snk {
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.col-stamp {
+  overflow: hidden;
+}
+
+.stamp2 {
+  position: relative;
+  top: 10%;
+}
+
+ul {
+  list-style-type: none;
+  color: #fff;
+}
+ul li:before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -20px;
+}
+
+@media (max-width: 575.98px) {
+  .kartu {
+    scale: 1;
+  }
+  .title-hero h1 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  .logo-shihlin {
+    width: 80%;
+  }
+
+  .logo-sevenwonder {
+    width: 50%;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .col-stamp {
+    margin-top: -75px;
+  }
+
+  .row.row-snk {
+    margin-top: 1rem;
+  }
+}
