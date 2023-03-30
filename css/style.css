@@ -83,6 +83,7 @@ ul li:before {
   body {
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 50% 50%;
   }
 
   .col-stamp {
